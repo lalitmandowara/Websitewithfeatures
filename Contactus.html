@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title></title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover {
+                    background-color: #111;
+                }
+
+
+        .h1 {
+            text-align: center;
+            font-family: 'Lucida Sans Unicode'
+        }
+
+
+        body {
+            background-color: cadetblue
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Services.html">Servises</a></li>
+            <li><a href="Contactus.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Gallery.html">gallarylishtbox</a></li>
+        </ul>
+    </div>
+
+    <h1 style="text-align:center;">Contact us</h1>
+
+    <div class="container">
+        <h1>more informasion in service page</h1>
+        <p>This example demonstrates a 50%/50% split on small, medium and large devices. On extra small devices, it will stack (100% width).</p>
+        <p>Resize the browser window to see the effect.</p>
+        <div class="row">
+            <div class="col-sm-6" style="background-color:yellow;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-sm-6" style="background-color:pink;">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+            </div>
+        </div>
+    </div>
+
+    <form action="Contactus.html" method="get">
+
+        <label>Name</label>
+        <input type="text" placeholder="Enter user name" required />
+        <br />
+        <label>Email</label>
+        <input type="email" placeholder="entr email" required />
+        <br />
+        <label>Password</label>
+        <input type="password" placeholder="Enter password" />
+        <br />
+        <label>Gander</label>
+        <input type="radio" value="male" name="Gender" /> male
+        <input type="radio" value="Female" name="Gender" /> female
+        <br />
+
+        <label>Kadel labs Department</label>
+        <br />
+        <input type="checkbox" name="Kade labs Department" /> asp.net mvc
+        <input type="checkbox" name="Kade labs Department" /> php
+        <input type="checkbox" name="Kade labs Department" /> testing
+        <input type="checkbox" name="Kade labs Department" /> html
+        <input type="checkbox" name="Kade labs Department" /> css
+        <br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="Reset" />
+
+    </form>
+
+
+</body>
+</html>
